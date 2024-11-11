@@ -2,19 +2,23 @@
 ### DATE: 10-09-24
 ### REGISTER NUMBER :212221040167
 ### AIM: 
-Write a python program to check the number is Armstrong number or not and inspect for failures.
+Write a python program for Binary Search and inspect for failures.
 
 ### Algorithm:
 
-1.  Start the program.
-2.	Read an integer input number.
-3.	Initialize the variables current_digit, sum = 0, and num = number.
-4.	Repeat Steps 5 to 7 until num > 0
-5.	current_digit = (num % 10).
-6.	sum = sum + (current_digit * current_digit * current_digit). 7. Stop the program.
-7.	num = num / 10.
-8.	Check if sum == number. If true, print "It is an Armstrong Number." Otherwise, print "It is not an Armstrong Number."
-9.	Stop the program.
+1. Start the program.
+2. Initialize the following variables:
+    low = 0
+    high = n - 1 (where n is the size of the sorted array)
+    mid = 0
+3. Read the input array (sorted) and the target element target to be searched.
+4. Repeat steps 5 to 8 until low is less than or equal to high:
+    Calculate mid as (low + high) / 2.
+    If the element at mid is equal to target, print "Element found at index mid" and stop the program.
+    If target is less than the element at mid, update high = mid - 1.
+    If target is greater than the element at mid, update low = mid + 1.
+5. If the loop completes without finding the element, print "Element not found in the array."
+6. Stop the program.
 
 ### Program:
 
@@ -70,5 +74,5 @@ except ValueError:
 
 
 ### Result:
-Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
+Thus, the python program for binary search implemented and the output is verified successfully.
 
