@@ -1,3 +1,6 @@
+# Ex.No: 5 Python program for Binary Search and inspect for failures. 
+### DATE: 10-09-24
+### REGISTER NUMBER :212221040167
 ### AIM: 
 Write a python program to check the number is Armstrong number or not and inspect for failures.
 
@@ -14,6 +17,7 @@ Write a python program to check the number is Armstrong number or not and inspec
 9.	Stop the program.
 
 ### Program:
+
 ```
 def binary_search(arr, x):
     low = 0
@@ -21,15 +25,15 @@ def binary_search(arr, x):
 
     while low <= high:
         mid = (high + low) // 2
-
+        
         if arr[mid] < x:
             low = mid + 1
         elif arr[mid] > x:
             high = mid - 1
         else:
-            return mid  # Return the index of the found element
+            return mid  
 
-    return -1  # Return -1 if the element is not found
+    return -1
 
 arr = [2, 3, 4, 10, 40]
 x = input("Enter the element to be searched: ")
@@ -39,15 +43,16 @@ try:
     result = binary_search(arr, x)
     
     if result != -1:
-        print("Element is present at index", str(result))
+        print("Element is present at index", result)
     else:
         print("Element is not present in array")
-except ValueError:  # Catch specific exception for invalid input
-    print("Enter a valid input!")
+except ValueError:
+    if not x.isalnum():
+            print("Reason to fail: Special characters are not allowed enter valid integer")
+    else:
+            print("Reason to fail: Alphabets are not allowed enter valid integer")
+
 ```
-
-
-
 
 
 
@@ -60,8 +65,8 @@ except ValueError:  # Catch specific exception for invalid input
 
 
 ### Output:
+![Screenshot 2024-10-08 135746](https://github.com/user-attachments/assets/f3b2fffd-dad8-44f8-a8b3-a2caf1d9f41f)
 
-![Screenshot (176)](https://github.com/user-attachments/assets/a05622cd-8eae-4288-919e-ce63fefe4bef)
 
 
 ### Result:
