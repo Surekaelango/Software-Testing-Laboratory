@@ -146,30 +146,30 @@ Users accessibility is censured in all the ways
 
 
 ### Possible Bugs:
-1.Successful insertion of ATM card
-2.Unsuccessful operation due to insert card in wrong angle
-3.Unsuccessful operation due to invalid account Ex: other bank card or time expired card
-4.successful entry of PIN number
-5.un successful operation due to enter wrong PIN number 3times
-6.successful selection of language
-7.successful selection of account type
-8.unsuccessful operation due to invalid account type
-9.successful selection of withdraw operation
-10.successful selection of amount to be withdrawal
-11.successful withdraw operation
-12.unsuccessful withdraw operation due to wrong denominations
-13.unsuccessful withdraw operation due to amount is greater than day limit
-14.unsuccessful withdraw operation due to lack of money in ATM
-15.unsuccessful withdraw operation due to amount is greater than possible balance
-16.unsuccessful withdraw operation due to transactions is greater than day limit
-17.unsuccessful withdraw operation due to click cancel after insert card
-18.unsuccessful withdraw operation due to click cancel after insert card & pin number
-19.unsuccessful withdraw operation due to click cancel after insert card, pin number & language
-20.unsuccessful withdraw operation due to click cancel after insert card, pin number, language &account type
+1.Successful insertion of ATM card<br/>
+2.Unsuccessful operation due to insert card in wrong angle<br/>
+3.Unsuccessful operation due to invalid account Ex: other bank card or time expired card<br/>
+4.successful entry of PIN number<br/>
+5.un successful operation due to enter wrong PIN number 3times<br/>
+6.successful selection of language<br/>
+7.successful selection of account type<br/>
+8.unsuccessful operation due to invalid account type<br/>
+9.successful selection of withdraw operation<br/>
+10.successful selection of amount to be withdrawal<br/>
+11.successful withdraw operation<br/>
+12.unsuccessful withdraw operation due to wrong denominations<br/>
+13.unsuccessful withdraw operation due to amount is greater than day limit<br/>
+14.unsuccessful withdraw operation due to lack of money in ATM<br/>
+15.unsuccessful withdraw operation due to amount is greater than possible balance<br/>
+16.unsuccessful withdraw operation due to transactions is greater than day limit<br/>
+17.unsuccessful withdraw operation due to click cancel after insert card<br/>
+18.unsuccessful withdraw operation due to click cancel after insert card & pin number<br/>
+19.unsuccessful withdraw operation due to click cancel after insert card, pin number & language<br/>
+20.unsuccessful withdraw operation due to click cancel after insert card, pin number, language &account type<br/>
 21.unsuccessful withdrawal operation due to click cancel after insert card, pin number, language, account type & withdrawal 
-   operation
+   operation<br/>
 22.unsuccessful withdrawal operation due to click cancel after insert card, pin number, language, account type, withdrawal 
-   operation &amount to be withdraw
+   operation &amount to be withdraw<br/>
 
 
 
